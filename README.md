@@ -3,7 +3,7 @@
 
 **Executive Summary**
 
-For this activity, a section of the London Underground was chosen which has 25 different stations connected to six different lines, for more interesting queries. The stations chosen can be seen on figure1. The aim was to have a Prolog implementation that can inform a potential user on how to get from a station to any other station on the network. It would also compute the shortest path between any two stations in terms of distance, the shortest path between any two stations in terms of time and the number of changes required between any two stations. Interstation database provided by Transport for London (TfL) and accessed through a freedom of information website [4] was used to calculate the times and distances between different stations.
+For this activity, a section of the London Underground was chosen which has 25 different stations connected to six different lines. The stations chosen can be seen on figure1. The aim was to have a Prolog implementation that can inform a potential user on how to get from a station to any other station on the network. It would also compute the shortest path between any two stations in terms of distance, the shortest path between any two stations in terms of time and the number of changes required between any two stations. Interstation database provided by Transport for London (TfL) and accessed through a freedom of information website [4] was used to calculate the times and distances between different stations.
 
 By executing fours simple predicates in the Prolog implementation (given below), it is possible to find answers to the above queries.
 
