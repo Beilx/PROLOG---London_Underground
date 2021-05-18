@@ -32,9 +32,9 @@ The study of logic has been found in ancient civilisations and has been scientif
 
 Prolog is a logic programming language used in artificial intelligence that first appeared in 1972. It contrasts to other prominent programming languages, as in Prolog the programmer specifies *what* is to be done rather than *how* something is to be done. It forces the programmer to describe situations and problems, not the detailed means by which the problems are to be solved [3].
 
-For this activity, a section of the London Underground was chosen which has 25 different stations connected to six different lines, for more interesting queries. The stations chosen can be seen on figure1. The aim was to have a Prolog implementation that can inform a potential user on how to get from a station to any other station on the network. It would also compute the shortest path between any two stations in terms of distance, the shortest path between any two stations in terms of time and the number of changes required between any two stations. Interstation database provided by Transport for London (TfL) and accessed through a freedom of information website [4] was used to calculate the times and distances between different stations.
+For this activity, a section of the London Underground was chosen which has 25 different stations connected to six different lines. The stations chosen can be seen on figure1. The aim was to have a Prolog implementation that can inform a potential user on how to get from a station to any other station on the network. It would also compute the shortest path between any two stations in terms of distance, the shortest path between any two stations in terms of time and the number of changes required between any two stations. Interstation database provided by Transport for London (TfL) and accessed through a freedom of information website [4] was used to calculate the times and distances between different stations.
 
-In the Main content chapter, the full Prolog implementation is given with e brief description at each stage. In the chapter Prolog Queries, examples are given for queries addressing the aims of the activity, and the responses are also recorded to show how the program can be executed. Under Prolog documentation, some Prolog documentation used are also listed with a brief description.
+In the Main content chapter, the full Prolog implementation is given with a brief description at each stage. In the chapter Prolog Queries, examples are given for queries addressing the aims of the activity, and the responses are also recorded to show how the program can be executed. Under Prolog documentation, some Prolog documentation used are also listed with a brief description.
 
 Finally, in the chapter Conclusion the results and limitations are evaluated, improvements to the network are suggested and future possible work that would be beneficial are discussed.
 
@@ -48,7 +48,7 @@ Finally, in the chapter Conclusion the results and limitations are evaluated, im
 
 The full Prolog implementation is given below.
 
-The connection between the stations are given by the fact connect. Broken down into the two station that are connected, they’re respective distance, the time it takes to get from the first station to the second and the line that connects them.
+The connections between the stations are given by the fact *connect*. It outlines the two station that are connected, they’re respective distance, the time it takes to get from the first station to the second and the line that connects them.
 
 **connect**(maida\_vale , warwick\_avenue , 0.79 ,  1.50 , bakerloo).
 
